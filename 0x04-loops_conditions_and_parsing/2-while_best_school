@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#display hello world ten times using while
+
+n=0
+while ((n++ < 10))
+do
+	echo "Best School"
+done
