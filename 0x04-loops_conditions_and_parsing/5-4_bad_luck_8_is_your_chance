@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#display hello world ten times using while and bad luck for 4th and good luck for 8th
+
+n=0
+while ((n++ < 10))
+do
+	if [ $n -eq 4 ] || [ $n -eq 8 ]
+	then
+		if [ $n -eq 4 ]
+		then
+			echo "bad luck"
+		else
+			echo "good luck"
+		fi
+	else
+		echo "Best School"
+	fi
+done
