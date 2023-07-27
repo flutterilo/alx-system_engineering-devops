@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#display hello world ten times using while and hi in 9th postion
+
+n=0
+while ((n++ < 10))
+do
+	echo "Best School"
+	if [ $n -eq 9 ]
+	then
+		echo "Hi"
+	fi
+done
