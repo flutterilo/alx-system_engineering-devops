@@ -4,14 +4,12 @@
 n=0
 while ((n++ < 10))
 do
-	if [ $n -eq 4 ] || [ $n -eq 8 ]
+	if [ $n -eq 4 ]
 	then
-		if [ $n -eq 4 ]
-		then
 			echo "bad luck"
-		else
+	elif [ $n -eq 8 ]
+	then
 			echo "good luck"
-		fi
 	else
 		echo "Best School"
 	fi
