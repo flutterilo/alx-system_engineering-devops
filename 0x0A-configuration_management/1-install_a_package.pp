@@ -1,6 +1,6 @@
-#install puppet-lint
+# kill process killmenow
 
-package { 'puppet-lint':
-  ensure   => '2.5.0',
-  provider => 'gem',
+exec { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
 }
